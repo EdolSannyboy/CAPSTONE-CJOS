@@ -1,0 +1,5 @@
+[17-Dec-2025 19:17:56 Asia/Manila] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\xampp\htdocs\Canteen Job Order System\php\init.php on line 25
+[17-Dec-2025 19:17:56 Asia/Manila] PHP Fatal error:  Uncaught Error: Class "Database" not found in C:\xampp\htdocs\Canteen Job Order System\check_db.php:3
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Canteen Job Order System\check_db.php on line 3

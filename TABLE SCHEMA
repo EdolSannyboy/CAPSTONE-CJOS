@@ -1,0 +1,11 @@
+log_history: `log_Id`, `user_ID`, `login_datetime`, `logout_datetime`, `logout_remarks`, `usertype`
+
+administrator: `admin_ID`, `firstname`, `middlename`, `lastname`, `suffix`, `gender`, `birthdate`, `nationality`, `contact`, `email`, `password`, `image`, `is_verified`, `is_password_changed`, `verification_code`, `created_at`
+
+canteen_staff: `canteen_staff_ID`, `firstname`, `middlename`, `lastname`, `suffix`, `gender`, `birthdate`, `nationality`, `contact`, `email`, `password`, `image`, `is_verified`, `is_password_changed`, `verification_code`, `created_at`
+
+orders: `order_id`, `job_order_no`, `office_name`, `email`, `needed_datetime`, `event`, `status`('On-going', 'Completed', 'Cancelled'), `total_amount`, `created_at`, `updated_at`
+
+order_items: `item_id`, `order_id`, `description`, `price`, `quantity`, `total`, `remarks`, `created_at`, `updated_at`
+
+
